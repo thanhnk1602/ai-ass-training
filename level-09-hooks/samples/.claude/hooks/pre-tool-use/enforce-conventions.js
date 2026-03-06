@@ -13,7 +13,7 @@ const dirName = path.dirname(filePath);
 
 const RULES = [
   {
-    test: (f) => f.endsWith('.tsx') && /^[a-z]/.test(path.basename(f, '.tsx')),
+    test: (f) => { const b = path.basename(f, '.tsx'); return f.endsWith('.tsx') && b.length > 0 && /^[a-z]/.test(b); },
     reason: 'React component files must use PascalCase (e.g., UserProfile.tsx)',
     applies: (f) => f.endsWith('.tsx') && !f.includes('.test.') && !f.includes('.spec.'),
   },

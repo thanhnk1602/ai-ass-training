@@ -24,7 +24,7 @@ const violations = [];
 // Rule 1: React components must be PascalCase
 if (ext === '.tsx' && !filePath.includes('.test.') && !filePath.includes('.spec.')) {
   const baseName = path.basename(filePath, ext);
-  if (baseName[0] !== baseName[0].toUpperCase()) {
+  if (baseName.length > 0 && baseName[0] !== baseName[0].toUpperCase()) {
     violations.push(`React components must use PascalCase: ${fileName} → ${baseName[0].toUpperCase() + baseName.slice(1)}.tsx`);
   }
 }
