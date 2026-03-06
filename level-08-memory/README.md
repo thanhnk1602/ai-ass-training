@@ -1,4 +1,4 @@
-# Level 10: The Elephant
+# Level 8: The Elephant
 
 > "It remembers everything. Across sessions, across projects, across time."
 
@@ -127,11 +127,11 @@ Both provide context, but they serve different purposes:
 
 ## What You'll See
 
-| Demo | Tool | Time | What Happens |
-|------|------|------|-------------|
-| 10.1 Memory Basics | Claude Code | 3 min | Store and recall memories across sessions |
-| 10.2 Project Memory | Claude Code | 4 min | Team-shared memory that checks into git |
-| 10.3 Knowledge Accumulation | Claude Code | 5 min | AI builds deep project knowledge over time |
+| Demo | Tool | Time | Audience | What Happens |
+|------|------|------|----------|-------------|
+| 8.1 Memory Basics | Claude Code | 3 min | [ALL] | Store and recall memories across sessions |
+| 8.2 Project Memory | Claude Code | 4 min | [ALL] | Team-shared memory that checks into git |
+| 8.3 Knowledge Accumulation | Claude Code | 5 min | [PLATFORM] | AI builds deep project knowledge over time |
 
 ## Key Takeaway
 
@@ -139,6 +139,6 @@ Memory is what transforms AI from a smart tool into a knowledgeable teammate. Pr
 
 ## Demos
 
-- [Demo 10.1: Memory Basics](demos/01-memory-basics.md)
-- [Demo 10.2: Project Memory](demos/02-project-memory.md)
-- [Demo 10.3: Knowledge Accumulation](demos/03-knowledge-graphs.md)
+- [Demo 8.1: Memory Basics](demos/01-memory-basics.md)
+- [Demo 8.2: Project Memory](demos/02-project-memory.md)
+- [Demo 8.3: Knowledge Accumulation](demos/03-knowledge-graphs.md)
