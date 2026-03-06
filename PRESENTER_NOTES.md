@@ -149,6 +149,44 @@ When it's done, `npm run dev` and open the browser.
 
 ---
 
+### Session 5: "AI in Production" (Levels 9-11, ~25 min)
+
+**Opening (1 min):**
+"You've seen what AI can do. Now let's talk about doing it safely, persistently, and at scale. These three levels address the questions every engineering leader asks: How do we prevent mistakes? How does it remember? How do we standardize across the team?"
+
+**Demo 9.1 - Hook Basics (3 min):**
+Set up a PreToolUse hook that blocks dangerous commands and a PostToolUse hook that auto-lints. "Hooks are your automated safety net. They run before and after every AI action."
+
+**Demo 9.2 - Guardrail Hooks (4 min) -- KEY SAFETY DEMO:**
+Ask Claude to run `rm -rf` and watch the hook block it. "The AI tried to run a destructive command. The hook stopped it cold. The command never executed."
+Then show naming convention enforcement. "Every file the AI creates follows your team's rules. Automatically."
+
+**Demo 9.3 - CI/CD Hooks (3 min):**
+Show the full pipeline: auto-lint on write, notification on completion. "Full observability. Every action logged, every change validated, Slack notification when done."
+
+**Transition to Memory (1 min):**
+"Hooks make AI safe. But right now, every session starts from zero. What if the AI remembered?"
+
+**Demo 10.1 - Memory Basics (3 min):**
+Store a convention, exit, restart, and watch Claude apply it without being reminded. "I told it ONCE. It remembered FOREVER."
+
+**Demo 10.2 - Project Memory (4 min) -- KEY PERSISTENCE DEMO:**
+Five project memories, all influencing generated code. "These memories are in `.claude/memory.json` -- they check into git. When a teammate pulls, they get the knowledge too."
+
+**Transition to Plugins (1 min):**
+"So you have skills, agents, hooks, and memories. How do you package all of that and give it to 100 developers? Plugins."
+
+**Demo 11.1 - Using Plugins (3 min) -- KEY PLATFORM DEMO:**
+Install a team plugin with one command. "Skills, agents, hooks, context -- all installed in one command. New developer on day one gets the full AI toolkit."
+
+**Demo 11.2 - Building a Plugin (4 min):**
+Build a plugin from scratch with AI assistance. "AI building tools for AI. The plugin packages your team's entire workflow into one installable package."
+
+**Closing (1 min):**
+"We've gone from a smart intern that generates code to a production-ready AI platform with guardrails, memory, and team-wide distribution. The question isn't whether to adopt AI-assisted development. It's how fast you can move through these levels."
+
+---
+
 ## Handling Q&A
 
 ### "Doesn't this make developers obsolete?"
@@ -166,6 +204,15 @@ When it's done, `npm run dev` and open the browser.
 ### "Can it handle our legacy codebase?"
 "Demo 3.1 showed it exploring a real codebase. It doesn't need a clean, modern project. It reads whatever you have."
 
+### "How do we prevent the AI from breaking things?"
+"Hooks. Demo 9.2 showed PreToolUse hooks that block dangerous commands BEFORE they execute. You define the rules, the hooks enforce them automatically. Same concept as CI checks, but running in real-time during AI development."
+
+### "It forgets everything between sessions"
+"Not anymore. Demo 10.1 showed memories that persist across sessions. Project memory checks into git so the whole team shares knowledge. The AI gets smarter about your codebase over time."
+
+### "How do we standardize AI across 50 developers?"
+"Plugins. Demo 11.1 showed how one command installs skills, agents, hooks, and context for the entire team. The platform team maintains the plugin, developers just use it. Same pattern as npm packages, but for AI capabilities."
+
 ---
 
 ## Emergency Fallbacks
@@ -177,3 +224,6 @@ When it's done, `npm run dev` and open the browser.
 | MCP server fails | Skip Level 4, mention the concept, move to Level 5 |
 | Agent teams unstable | Fall back to manual parallel (Demo 8.1) for remaining Level 8 |
 | Demo produces bad output | "This is real. Sometimes the AI gets it wrong. Watch what happens when I tell it to fix it..." (this is actually a GREAT demo moment) |
+| Hooks not firing | Check `.claude/settings.json` syntax. Fall back to showing the hook scripts and explaining the concept. |
+| Memory not persisting | Verify `.claude/memory.json` exists and is valid JSON. Manually create the file with sample memories. |
+| Plugin install fails | Copy the plugin directory manually to `.claude/plugins/` and restart Claude Code. |

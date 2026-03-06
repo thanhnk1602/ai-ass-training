@@ -124,6 +124,22 @@ Before each training session, verify:
   ```
 - [ ] tmux installed if using split-pane mode (optional, in-process mode works without it)
 
+### For Level 9 (Hooks) specifically:
+
+- [ ] Sample hook scripts copied from `level-09-hooks/samples/`
+- [ ] Node.js available for running hook scripts
+- [ ] ESLint installed in project (for auto-lint hook demo): `npm install -D eslint`
+
+### For Level 10 (Memory) specifically:
+
+- [ ] `.claude/` directory initialized in project
+- [ ] Familiarity with `/memory` command in Claude Code
+
+### For Level 11 (Plugins) specifically:
+
+- [ ] Sample plugin available from `level-11-plugins/samples/my-team-plugin/`
+- [ ] Git initialized in project (for plugin distribution demos)
+
 ## Troubleshooting
 
 ### Claude Code won't authenticate

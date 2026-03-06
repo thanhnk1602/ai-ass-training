@@ -1,0 +1,46 @@
+{
+  "memories": [
+    {
+      "id": "mem_001",
+      "content": "This project uses PostgreSQL 15 with pgvector extension for vector similarity search on document embeddings",
+      "scope": "project",
+      "created": "2025-01-15T10:30:00Z",
+      "source": "user"
+    },
+    {
+      "id": "mem_002",
+      "content": "All database migrations must be reversible -- always include a down migration function",
+      "scope": "project",
+      "created": "2025-01-15T11:00:00Z",
+      "source": "user"
+    },
+    {
+      "id": "mem_003",
+      "content": "The notification service runs at internal-api.company.com:8080 and requires Bearer token auth",
+      "scope": "project",
+      "created": "2025-01-16T09:15:00Z",
+      "source": "conversation"
+    },
+    {
+      "id": "mem_004",
+      "content": "Never use ORM eager loading in this project -- always use explicit joins for performance. This was decided after the N+1 query incident in Q3.",
+      "scope": "project",
+      "created": "2025-01-17T14:20:00Z",
+      "source": "conversation"
+    },
+    {
+      "id": "mem_005",
+      "content": "Error responses must follow RFC 7807 Problem Details format: { type, title, status, detail, instance }",
+      "scope": "project",
+      "created": "2025-01-18T08:45:00Z",
+      "source": "user"
+    },
+    {
+      "id": "mem_006",
+      "content": "Frontend uses Zustand for state management, NOT Redux. Team decision from 2024-Q4 architecture review.",
+      "scope": "project",
+      "created": "2025-02-01T10:00:00Z",
+      "source": "user"
+    }
+  ]
+}
