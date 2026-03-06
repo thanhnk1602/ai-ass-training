@@ -1,4 +1,4 @@
-# Level 9: The Watchdog
+# Level 7: The Watchdog
 
 > "Trust, but verify. Automatically."
 
@@ -106,11 +106,11 @@ Hooks receive JSON on stdin and respond with JSON on stdout:
 
 ## What You'll See
 
-| Demo | Tool | Time | What Happens |
-|------|------|------|-------------|
-| 9.1 Hook Basics | Claude Code | 3 min | Create and test PreToolUse + PostToolUse hooks |
-| 9.2 Guardrail Hooks | Claude Code | 4 min | Block dangerous commands, enforce conventions automatically |
-| 9.3 CI/CD Integration | Claude Code | 5 min | Hooks that trigger tests, linting, and notifications |
+| Demo | Tool | Time | Audience | What Happens |
+|------|------|------|----------|-------------|
+| 7.1 Hook Basics | Claude Code | 3 min | [DEV] | Create and test PreToolUse + PostToolUse hooks |
+| 7.2 Guardrail Hooks | Claude Code | 4 min | [ALL] | Block dangerous commands, enforce conventions automatically |
+| 7.3 CI/CD Integration | Claude Code | 5 min | [PLATFORM] | Hooks that trigger tests, linting, and notifications |
 
 ## Key Takeaway
 
@@ -118,6 +118,6 @@ Hooks are the missing piece between "AI that writes code" and "AI that writes co
 
 ## Demos
 
-- [Demo 9.1: Hook Basics](demos/01-hook-basics.md)
-- [Demo 9.2: Guardrail Hooks](demos/02-guardrails-hooks.md)
-- [Demo 9.3: CI/CD Integration Hooks](demos/03-ci-cd-hooks.md)
+- [Demo 7.1: Hook Basics](demos/01-hook-basics.md)
+- [Demo 7.2: Guardrail Hooks](demos/02-guardrails-hooks.md)
+- [Demo 7.3: CI/CD Integration Hooks](demos/03-ci-cd-hooks.md)
