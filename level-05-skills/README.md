@@ -80,20 +80,6 @@ When reviewing code, check for:
 3. ...
 ```
 
-## Skills vs Old Commands
-
-| Feature | Old `.claude/commands/` | New `.claude/skills/` |
-|---------|------------------------|----------------------|
-| Slash command | Yes | Yes |
-| Frontmatter config | Optional | Full support |
-| Supporting files | No | Yes (templates, scripts, examples) |
-| Auto-invocation by Claude | No | Yes (based on description) |
-| Subagent execution | No | Yes (`context: fork`) |
-| Tool restrictions | No | Yes (`allowed-tools`) |
-| Directory structure | Single .md file | Directory with SKILL.md + files |
-
-**Old commands still work.** `.claude/commands/review.md` and `.claude/skills/review/SKILL.md` both create `/review`.
-
 ## Where Skills Live
 
 | Location | Path | Applies To |
@@ -121,11 +107,19 @@ When reviewing code, check for:
 
 ## What You'll See
 
-| Demo | Tool | Time | What Happens |
-|------|------|------|-------------|
-| 5.1 Bundled Skills | Claude Code | 2 min | `/simplify` spawns 3 agents to review your code |
-| 5.2 Create Your First Skill | Claude Code | 3 min | Build a `/review` skill with frontmatter |
-| 5.3 Skills with Arguments | Claude Code | 2 min | `/component InvestmentCard` generates 4 files |
+### Part A: Basic Skills
+| Demo | Tool | Time | Audience | What Happens |
+|------|------|------|----------|-------------|
+| 5.1 Bundled Skills | Claude Code | 2 min | [ALL] | `/simplify` spawns 3 agents to review your code |
+| 5.2 Create Your First Skill | Claude Code | 3 min | [ALL] | Build a `/review` skill with frontmatter |
+| 5.3 Skills with Arguments | Claude Code | 2 min | [DEV] | `/component InvestmentCard` generates 4 files |
+
+### Part B: Advanced Skills
+| Demo | Tool | Time | Audience | What Happens |
+|------|------|------|----------|-------------|
+| 5.4 Skill with Supporting Files | Claude Code | 3 min | [DEV] | `/deploy` with pre-flight scripts + report template |
+| 5.5 Subagent Skills | Claude Code | 3 min | [DEV] | `/research` runs in isolated Explore agent |
+| 5.6 Visual Output Skill | Claude Code | 4 min | [PLATFORM] | `/visualize` generates interactive HTML codebase map |
 
 ## Key Takeaway
 
@@ -133,6 +127,12 @@ Skills are **codified team knowledge** that check into git and travel with the p
 
 ## Demos
 
+### Part A: Basic Skills
 - [Demo 5.1: Bundled Skills](demos/01-builtin-skills.md)
 - [Demo 5.2: Create Your First Skill](demos/02-create-skill.md)
 - [Demo 5.3: Skills with Arguments & Patterns](demos/03-repeatable-patterns.md)
+
+### Part B: Advanced Skills
+- [Demo 5.4: Skill with Supporting Files](demos/04-supporting-files.md)
+- [Demo 5.5: Subagent & Dynamic Context Skills](demos/05-subagent-skills.md)
+- [Demo 5.6: Visual Output Skill](demos/06-visual-output.md)
