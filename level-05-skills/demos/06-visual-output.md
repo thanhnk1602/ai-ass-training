@@ -1,16 +1,17 @@
-# Demo 6.3: Visual Output & Plugin Distribution
+# Demo 5.6: Visual Output Skill
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 4 minutes
+> **Audience:** [PLATFORM]
 > **Setup:** Copy `samples/.claude/skills/visualize/` to your project
 
 ## The Demo
 
-Two advanced patterns: **skills that generate visual HTML output** (interactive browser-based reports) and **distributing skills as plugins** across projects.
+An advanced skill pattern: **skills that generate visual HTML output** — interactive browser-based reports built from bundled scripts.
 
 ---
 
-## Demo A: Visual Output Skill -- /visualize
+## Visual Output Skill -- /visualize
 
 A skill that bundles a Python script to generate an interactive codebase explorer in your browser.
 
@@ -71,63 +72,9 @@ The skill produced **interactive visual output** in the browser. Not text in the
 - Performance profiling results
 - Architecture visualizations
 
----
-
-## Demo B: Sharing Skills as Plugins
-
-### What Are Plugins?
-
-Plugins are directories that contain skills, CLAUDE.md files, and MCP server configs. They let you package and distribute AI capabilities across projects.
-
-### Plugin Structure
-
-```
-my-team-plugin/
-├── PLUGIN.md                       # Plugin description
-├── CLAUDE.md                       # Context loaded when plugin is active
-├── skills/
-│   ├── review/SKILL.md             # Code review skill
-│   ├── component/SKILL.md          # Component generator
-│   ├── deploy/SKILL.md             # Deployment pipeline
-│   └── security-audit/SKILL.md     # Security audit
-└── mcp-servers/
-    └── config.json                 # MCP server configurations
-```
-
-### Distribution Methods
-
-| Method | How | Best For |
-|--------|-----|----------|
-| **Git submodule** | `git submodule add <repo> .claude/plugins/team-tools` | Team-wide, version-controlled |
-| **npm package** | `npm install @team/claude-skills` | Ecosystem distribution |
-| **Direct copy** | Copy directory into `.claude/plugins/` | Quick sharing |
-
-### Enabling a Plugin
-
-```bash
-# In Claude Code
-claude plugins add /path/to/my-team-plugin
-```
-
-Or add to project settings manually.
-
-### Prompt (demonstrate plugin skills)
-
-```
-# After installing the plugin, skills are namespaced:
-/my-team-plugin:review
-/my-team-plugin:deploy staging
-/my-team-plugin:security-audit full
-```
-
-### Wow Moment
-
-A single plugin installation gives the AI an entire team toolkit. Skills, context, MCP integrations -- all packaged and versioned.
-
 ## Talking Points
 
 - "Visual output transforms AI from text terminal to interactive reports"
 - "Bundled scripts can be Python, Node, bash -- any language"
-- "Plugins package skills for distribution across projects and teams"
-- "Plugin skills are namespaced: no conflicts with project skills"
-- "This is how you build an AI-powered developer platform for your org"
+- "This same pattern works for dependency graphs, test coverage, API docs, architecture diagrams"
+- "Next level: packaging skills like this into plugins for org-wide distribution (see Level 9)"
