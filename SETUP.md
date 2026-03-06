@@ -18,9 +18,9 @@ Install these before the training session.
 | Tool | Install | Used In |
 |------|---------|---------|
 | Cursor IDE | [cursor.com](https://cursor.com) | Levels 2, 5 |
-| Docker Desktop | [docker.com](https://www.docker.com/products/docker-desktop) | Levels 4, 8 |
+| Docker Desktop | [docker.com](https://www.docker.com/products/docker-desktop) | Levels 4, 6 |
 | GitHub CLI | `brew install gh` | Level 4 |
-| tmux | `brew install tmux` | Level 8 (agent teams split panes, optional) |
+| tmux | `brew install tmux` | Level 6 (agent teams split panes, optional) |
 
 ### API Keys
 
@@ -28,7 +28,7 @@ Install these before the training session.
 |-----|-------------|---------|
 | Anthropic API key | [console.anthropic.com](https://console.anthropic.com) | All levels (via Claude Code) |
 | GitHub PAT | GitHub Settings > Developer Settings > Tokens | Level 4 (MCP) |
-| Etherscan API key | [etherscan.io/apis](https://etherscan.io/apis) | Level 8 capstone (optional) |
+| Etherscan API key | [etherscan.io/apis](https://etherscan.io/apis) | Level 6 capstone (optional) |
 
 ## Claude Code Setup
 
@@ -104,7 +104,7 @@ Before each training session, verify:
 - [ ] All sample files in the correct directories
 - [ ] Terminal font size increased (minimum 16pt for readability)
 - [ ] Screen sharing configured (if remote)
-- [ ] Network connection stable (for API calls in Levels 4, 8)
+- [ ] Network connection stable (for API calls in Levels 4, 6)
 
 ### For Level 4 (MCP) specifically:
 
@@ -112,32 +112,32 @@ Before each training session, verify:
 - [ ] GitHub PAT token ready
 - [ ] PostgreSQL database accessible
 
-### For Level 8 (Agent Teams) specifically:
+### For Level 6 (Agentic & Multi-Agent) specifically:
 
 - [ ] Have a pre-built backup version in case of network issues
 - [ ] CoinGecko API accessible (test: `curl https://api.coingecko.com/api/v3/ping`)
-- [ ] For manual parallel (Demo 8.1): 3 terminal windows ready
-- [ ] For agent teams (Demo 8.2-8.3): enable experimental feature:
+- [ ] For manual parallel (Demo 6.4): 3 terminal windows ready
+- [ ] For agent teams (Demo 6.5-6.6): enable experimental feature:
   ```json
   // ~/.claude/settings.json
   { "env": { "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1" } }
   ```
 - [ ] tmux installed if using split-pane mode (optional, in-process mode works without it)
 
-### For Level 9 (Hooks) specifically:
+### For Level 7 (Hooks) specifically:
 
-- [ ] Sample hook scripts copied from `level-09-hooks/samples/`
+- [ ] Sample hook scripts copied from `level-07-hooks/samples/`
 - [ ] Node.js available for running hook scripts
 - [ ] ESLint installed in project (for auto-lint hook demo): `npm install -D eslint`
 
-### For Level 10 (Memory) specifically:
+### For Level 8 (Memory) specifically:
 
 - [ ] `.claude/` directory initialized in project
 - [ ] Familiarity with `/memory` command in Claude Code
 
-### For Level 11 (Plugins) specifically:
+### For Level 9 (Plugins) specifically:
 
-- [ ] Sample plugin available from `level-11-plugins/samples/my-team-plugin/`
+- [ ] Sample plugin available from `level-09-plugins/samples/my-team-plugin/`
 - [ ] Git initialized in project (for plugin distribution demos)
 
 ## Troubleshooting

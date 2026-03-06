@@ -15,7 +15,7 @@ This demo builds a complete cryptocurrency portfolio dashboard from a client bri
 # From any empty directory:
 claude
 
-# Then paste the capstone prompt from level-08-agent-teams/demos/03-capstone.md
+# Then paste the capstone prompt from level-06-agentic/demos/06-capstone.md
 ```
 
 ## Expected Result
