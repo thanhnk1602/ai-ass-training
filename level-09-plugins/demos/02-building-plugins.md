@@ -1,7 +1,8 @@
-# Demo 11.2: Building a Plugin
+# Demo 9.2: Building a Plugin
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 5 minutes
+> **Audience:** [PLATFORM]
 > **Setup:** Empty directory for the new plugin
 
 ## The Demo

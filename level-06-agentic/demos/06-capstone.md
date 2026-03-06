@@ -1,7 +1,8 @@
-# Demo 8.3: THE CAPSTONE -- Full Application with Agent Team
+# Demo 6.6: THE CAPSTONE -- Full Application with Agent Team
 
 > **Tool:** Claude Code (CLI) with Agent Teams
 > **Time:** 10-15 minutes
+> **Audience:** [ALL]
 > **Setup:** Enable agent teams. Read the brief at `../../capstone/brief.md`
 
 ## The Demo

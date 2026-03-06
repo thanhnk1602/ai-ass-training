@@ -1,6 +1,7 @@
 # Demo 4.3: Build a Custom MCP Server (Live)
 > **Tool:** Claude Code (CLI)
 > **Time:** 5 minutes
+> **Audience:** [DEV]
 > **Setup:** Python 3.10+ installed
 
 ## The Demo

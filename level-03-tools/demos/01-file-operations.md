@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 2 minutes
+> **Audience:** [ALL]
 > **Setup:** Run from `account-system/` directory (or any existing project)
 
 ## The Demo

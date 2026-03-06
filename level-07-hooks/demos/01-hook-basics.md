@@ -1,7 +1,8 @@
-# Demo 9.1: Hook Basics
+# Demo 7.1: Hook Basics
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 3 minutes
+> **Audience:** [DEV]
 > **Setup:** Create `.claude/hooks/` directory in your project
 
 ## The Demo

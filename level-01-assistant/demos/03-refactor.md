@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 2 minutes
+> **Audience:** [DEV]
 > **Setup:** `samples/messy_utils.py` in the project
 
 ## The Demo

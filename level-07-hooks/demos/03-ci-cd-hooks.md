@@ -1,7 +1,8 @@
-# Demo 9.3: CI/CD Integration Hooks
+# Demo 7.3: CI/CD Integration Hooks
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 5 minutes
+> **Audience:** [PLATFORM]
 > **Setup:** Node.js project with test suite, hooks configured
 
 ## The Demo

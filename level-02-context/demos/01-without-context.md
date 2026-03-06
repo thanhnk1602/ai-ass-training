@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI) -- run twice
 > **Time:** 3 minutes
+> **Audience:** [ALL]
 > **Setup:** Two directories: one empty, one with CLAUDE.md
 
 ## Why This Demo Matters

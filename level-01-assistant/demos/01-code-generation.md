@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 2 minutes
+> **Audience:** [ALL]
 > **Setup:** Empty directory, Python installed
 
 ## The Demo

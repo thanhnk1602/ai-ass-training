@@ -1,7 +1,8 @@
-# Demo 8.2: Agent Teams
+# Demo 6.5: Agent Teams
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 5 minutes
+> **Audience:** [ALL]
 > **Setup:** Enable agent teams, have a project to review or build
 > **Prerequisite:** `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` enabled in settings
 

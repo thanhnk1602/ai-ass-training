@@ -2,6 +2,7 @@
 
 > **Tool:** Cursor IDE (or Claude Code)
 > **Time:** 3 minutes
+> **Audience:** [ALL]
 > **Setup:** Open `samples/buggy_server.py` in Cursor
 
 ## The Demo

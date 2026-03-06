@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 2 minutes
+> **Audience:** [DEV]
 > **Setup:** Copy `samples/.claude/skills/component/` to your project
 
 ## The Demo

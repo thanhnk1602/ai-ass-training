@@ -1,8 +1,9 @@
-# Demo 9.2: Guardrail Hooks
+# Demo 7.2: Guardrail Hooks
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 4 minutes
-> **Setup:** Hooks from Demo 9.1 configured
+> **Audience:** [ALL]
+> **Setup:** Hooks from Demo 7.1 configured
 
 ## The Demo
 

@@ -1,7 +1,8 @@
-# Demo 11.1: Using Plugins
+# Demo 9.1: Using Plugins
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 3 minutes
+> **Audience:** [PLATFORM]
 > **Setup:** Sample plugin from `samples/my-team-plugin/` available
 
 ## The Demo

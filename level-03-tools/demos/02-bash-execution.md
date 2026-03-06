@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 3 minutes
+> **Audience:** [ALL]
 > **Setup:** Use `samples/mini-project/` -- a small Node.js project without tests
 
 ## The Demo

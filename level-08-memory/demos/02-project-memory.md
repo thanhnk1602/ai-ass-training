@@ -1,7 +1,8 @@
-# Demo 10.2: Project Memory
+# Demo 8.2: Project Memory
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 4 minutes
+> **Audience:** [ALL]
 > **Setup:** A project with `.claude/` directory initialized
 
 ## The Demo

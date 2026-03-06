@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 3 minutes
+> **Audience:** [ALL]
 > **Setup:** Run from an existing project with CLAUDE.md (e.g., `luminnet-example/`)
 
 ## The Demo

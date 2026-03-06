@@ -1,7 +1,8 @@
-# Demo 8.1: Manual Parallel Sessions
+# Demo 6.4: Manual Parallel Sessions
 
 > **Tool:** Claude Code (CLI) x3 terminals
 > **Time:** 5 minutes
+> **Audience:** [DEV]
 > **Setup:** Create an empty project directory `bookmark-app/`
 
 ## The Concept

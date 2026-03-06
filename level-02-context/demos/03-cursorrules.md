@@ -2,6 +2,7 @@
 
 > **Tool:** Cursor IDE
 > **Time:** 2 minutes
+> **Audience:** [DEV]
 > **Setup:** Create `.cursorrules` in project root, open Cursor
 
 ## The Demo

@@ -1,7 +1,8 @@
-# Demo 11.3: Plugin Ecosystem
+# Demo 9.3: Plugin Ecosystem
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 4 minutes
+> **Audience:** [PLATFORM]
 > **Setup:** Multiple plugins installed (team plugin + community plugins)
 
 ## The Demo

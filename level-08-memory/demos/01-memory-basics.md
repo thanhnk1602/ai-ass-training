@@ -1,7 +1,8 @@
-# Demo 10.1: Memory Basics
+# Demo 8.1: Memory Basics
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 3 minutes
+> **Audience:** [ALL]
 > **Setup:** A project directory with some existing code
 
 ## The Demo

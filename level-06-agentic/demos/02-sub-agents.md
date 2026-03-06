@@ -1,7 +1,8 @@
-# Demo 7.2: Custom Sub-agents
+# Demo 6.2: Custom Sub-agents
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 4 minutes
+> **Audience:** [DEV]
 > **Setup:** Copy `samples/.claude/agents/` to your project, or use `/agents` command
 
 ## The Demo

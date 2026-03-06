@@ -1,7 +1,8 @@
-# Demo 6.2: Subagent & Dynamic Context Skills
+# Demo 5.5: Subagent & Dynamic Context Skills
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 3 minutes
+> **Audience:** [DEV]
 > **Setup:** Copy `samples/.claude/skills/` to your project
 
 ## The Demo

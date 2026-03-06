@@ -1,7 +1,8 @@
-# Demo 6.1: Skills with Supporting Files
+# Demo 5.4: Skills with Supporting Files
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 3 minutes
+> **Audience:** [DEV]
 > **Setup:** Copy `samples/.claude/skills/deploy/` to your project
 
 ## The Demo

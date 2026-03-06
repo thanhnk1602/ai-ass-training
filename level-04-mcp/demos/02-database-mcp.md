@@ -1,6 +1,7 @@
 # Demo 4.2: Database MCP -- Talk to Your Data
 > **Tool:** Claude Code (CLI) with PostgreSQL MCP
 > **Time:** 2 minutes
+> **Audience:** [DEV]
 > **Setup:** Running PostgreSQL instance + MCP configured
 
 ## Setup

@@ -1,7 +1,8 @@
-# Demo 10.3: Knowledge Accumulation
+# Demo 8.3: Knowledge Accumulation
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 5 minutes
+> **Audience:** [PLATFORM]
 > **Setup:** A project with several sessions worth of accumulated memories
 
 ## The Demo

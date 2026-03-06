@@ -1,7 +1,8 @@
-# Demo 7.1: Feature Implementation from Spec
+# Demo 6.1: Feature Implementation from Spec
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 5 minutes (let it run)
+> **Audience:** [ALL]
 > **Setup:** Run from `account-system/` with `feature-spec.md` in the directory
 
 ## The Demo

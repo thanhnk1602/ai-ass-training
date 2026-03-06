@@ -1,6 +1,7 @@
 # Demo 4.1: GitHub MCP -- Issue to Pull Request
 > **Tool:** Claude Code (CLI) with GitHub MCP
 > **Time:** 3 minutes
+> **Audience:** [DEV]
 > **Setup:** GitHub MCP server configured (see configs/)
 
 ## Setup

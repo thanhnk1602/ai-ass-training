@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 3 minutes
+> **Audience:** [ALL]
 > **Setup:** Any project directory with staged git changes
 
 ## The Demo

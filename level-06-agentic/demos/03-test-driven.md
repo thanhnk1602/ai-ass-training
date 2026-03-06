@@ -1,7 +1,8 @@
-# Demo 7.3: Test-Driven Implementation
+# Demo 6.3: Test-Driven Implementation
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 4 minutes
+> **Audience:** [DEV]
 > **Setup:** Any Node.js project directory
 
 ## The Demo

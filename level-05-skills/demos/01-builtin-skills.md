@@ -2,6 +2,7 @@
 
 > **Tool:** Claude Code (CLI)
 > **Time:** 2 minutes
+> **Audience:** [ALL]
 > **Setup:** Any project with recent code changes
 
 ## The Demo
